@@ -3,9 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{9D390E05-2D26-4A07-BB08-787665C8B82B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{9D390E05-2D26-4A07-BB08-787665C8B82B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{CFD9F7AC-9975-4F43-B6C8-602D9D308AC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{CFD9F7AC-9975-4F43-B6C8-602D9D308AC3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{9464F692-CC0B-4A69-9F5E-1D45BAF88C3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Criacionais", "Criacionais", "{F5BDFABF-A108-4467-B49D-3F3E47C767AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Estrutural", "Estrutural", "{952B4865-CC44-4360-9605-78F65637103D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{AC2DE1CD-6C6B-4842-BD6A-8092DEA39924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{EFA07228-A36D-424D-B9BB-D2F9C77F1C39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +31,28 @@ Global
 		{CFD9F7AC-9975-4F43-B6C8-602D9D308AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFD9F7AC-9975-4F43-B6C8-602D9D308AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFD9F7AC-9975-4F43-B6C8-602D9D308AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9464F692-CC0B-4A69-9F5E-1D45BAF88C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9464F692-CC0B-4A69-9F5E-1D45BAF88C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9464F692-CC0B-4A69-9F5E-1D45BAF88C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9464F692-CC0B-4A69-9F5E-1D45BAF88C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC2DE1CD-6C6B-4842-BD6A-8092DEA39924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC2DE1CD-6C6B-4842-BD6A-8092DEA39924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC2DE1CD-6C6B-4842-BD6A-8092DEA39924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC2DE1CD-6C6B-4842-BD6A-8092DEA39924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFA07228-A36D-424D-B9BB-D2F9C77F1C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFA07228-A36D-424D-B9BB-D2F9C77F1C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFA07228-A36D-424D-B9BB-D2F9C77F1C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFA07228-A36D-424D-B9BB-D2F9C77F1C39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9D390E05-2D26-4A07-BB08-787665C8B82B} = {F5BDFABF-A108-4467-B49D-3F3E47C767AF}
+		{CFD9F7AC-9975-4F43-B6C8-602D9D308AC3} = {F5BDFABF-A108-4467-B49D-3F3E47C767AF}
+		{9464F692-CC0B-4A69-9F5E-1D45BAF88C3C} = {F5BDFABF-A108-4467-B49D-3F3E47C767AF}
+		{AC2DE1CD-6C6B-4842-BD6A-8092DEA39924} = {952B4865-CC44-4360-9605-78F65637103D}
+		{EFA07228-A36D-424D-B9BB-D2F9C77F1C39} = {952B4865-CC44-4360-9605-78F65637103D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FE191D23-1DF0-46FC-859D-751C98165B45}
