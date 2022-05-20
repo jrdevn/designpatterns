@@ -2,9 +2,6 @@
 {
     interface IVehicle
     {
-
-       
-        
         void StartVehicle();
 
     }

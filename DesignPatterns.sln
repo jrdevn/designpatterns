@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ocp", "Ocp\Ocp.csproj", "{D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Srp", "Srp\Srp.csproj", "{A6A04B6F-BE0A-43FA-BE30-DB82129D4B8B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsability", "ChainOfResponsability\ChainOfResponsability.csproj", "{591F3458-1F08-4DD7-B57E-961C724948B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,10 @@ Global
 		{A6A04B6F-BE0A-43FA-BE30-DB82129D4B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6A04B6F-BE0A-43FA-BE30-DB82129D4B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6A04B6F-BE0A-43FA-BE30-DB82129D4B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{591F3458-1F08-4DD7-B57E-961C724948B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{591F3458-1F08-4DD7-B57E-961C724948B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{591F3458-1F08-4DD7-B57E-961C724948B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{591F3458-1F08-4DD7-B57E-961C724948B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +98,7 @@ Global
 		{DB0409C4-1A50-49DB-91E9-8A5FFC2EB6B1} = {F2DEFAE6-90FF-44C6-8C32-D7EB6072B451}
 		{D4007E8C-6820-4660-A977-A8A9DE67569C} = {F2DEFAE6-90FF-44C6-8C32-D7EB6072B451}
 		{A6A04B6F-BE0A-43FA-BE30-DB82129D4B8B} = {F2DEFAE6-90FF-44C6-8C32-D7EB6072B451}
+		{591F3458-1F08-4DD7-B57E-961C724948B1} = {E3F2879A-65FC-4D78-942F-C0D3ECDFBC84}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FE191D23-1DF0-46FC-859D-751C98165B45}
